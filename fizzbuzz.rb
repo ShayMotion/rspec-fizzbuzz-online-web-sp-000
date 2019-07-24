@@ -4,7 +4,7 @@ require_relative './spec_helper.rb'
 require_relative './fizzbuzz_spec.rb'
 
 def fizzbuzz(num)
-(1..100).each do |num|
+(1..100) do |num|
   if num % 15 == 0
     puts 'fizzbuzz'
   elsif num % 3 == 0
@@ -13,6 +13,5 @@ def fizzbuzz(num)
 puts 'buzz'
 else
   puts num
-end
 end
 end
